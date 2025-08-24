@@ -12,6 +12,22 @@ export default function HomeScreen({ navigation }) {
         title="Go go Profile"
         onPress={() => navigation.navigate("Profile")} 
         />
+         <Button
+        title="Go go Count"
+        onPress={() => navigation.navigate("Count")} 
+        />
+         <Button
+        title="Go go Flex"
+        onPress={() => navigation.navigate("Flex")} 
+        />
+         <Button
+        title="Go go Layout"
+        onPress={() => navigation.navigate("Layout")} 
+        />
+          <Button
+        title="Go go Login"
+        onPress={() => navigation.navigate("Login")} 
+        />
     </View>
   );
 }
